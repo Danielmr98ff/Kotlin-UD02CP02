@@ -21,9 +21,9 @@ fun main() {
             for (numero in 1..5) {
                 val estado = asientos["$fila$numero"]
                 val simbolo = when (estado) {
-                    false -> "[O]" // Disponible (Libre)
-                    true  -> "[X]" // Ocupado
-                    null  -> "[?]" // No existe
+                    false -> "[O]"
+                    true  -> "[X]"
+                    null  -> "[?]"
                 }
                 print("$simbolo")
             }
